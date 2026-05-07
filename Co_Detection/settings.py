@@ -28,6 +28,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["co-detection.onrender.com"]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://co-detection.onrender.com',
+]
+
 
 # Application definition
 
